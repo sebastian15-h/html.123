@@ -1,0 +1,59 @@
+html{
+    scroll-behavior: smooth;
+}
+
+footer{
+background-color: #1b1b1b;
+  color: #ddd;
+  padding: 10px 20px 20px;
+  font-family: algerian;
+  text-align: center;
+}
+
+.wahyumenu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 40px;
+    background-color: #1b1b1b;
+    color: #fff; 
+    font-family: algerian;
+}
+
+.wahyumenu nav ul{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+
+.wahyumenu nav ul li a {
+    text-decoration: none;
+    color: #ddd;
+    font-weight: 500;
+    font-size: 22px;
+    border: 3px solid #ad60f5 ;
+    border-radius: 9999px;
+    padding: 8px 20px;
+}
+
+.wahyumenu a:hover {
+    background-color: #ad60f5; 
+    color: #fff;              
+    box-shadow: 0 4px 14px  #ad60f5; 
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+ul {
+  list-style: none; 
+  padding: 0;       
+  margin: 0;       
+  }
+
+a {
+  text-decoration: none;    
+}

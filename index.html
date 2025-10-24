@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Descripción de tu sitio para SEO">
+    <meta name="author" content="Tu nombre">
+    <link rel="stylesheet" href="/css/styles_wagyu.css">
+    <title>Wagyu Burger</title>
+</head>
+<body>
+    <!-- HEADER: Encabezado principal del sitio -->
+<header>
+    <div class="wahyumenu">
+        <h1>Wagyu burg🍔r </h1>
+        <nav aria-label="Navegación principal">
+            <ul>
+                <li><a href="/index.html">Inicio</a></li>
+                <li><a href="/assets/pages/about.html">Servicios</a></li>
+                <li><a href="/assets/pages/blog.html">Acerca de</a></li>
+                <li><a href="/assets/pages/contact.html">Blog</a></li>
+                <li><a href="/assets/pages/gallery.html">Contacto</a></li>
+                <li><a href="/assets/pages/servicios.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+    <!-- MAIN: Contenedor del contenido principal (solo uno por página) -->
+    <main>
+        <!-- SECTION: Sección hero/banner principal -->
+        <section id="hero">
+            <h2>Bienvenidos a Nuestro Sitio</h2>
+            <p>Descripción breve y llamativa de lo que ofreces</p>
+        </section>
+
+        <!-- SECTION: Agrupa contenido relacionado -->
+        <section id="servicios">
+            <h2>Nuestros Servicios</h2>
+            
+            <!-- Múltiples ARTICLE para contenido independiente -->
+            <article>
+                <h3>Servicio 1</h3>
+                <p>Descripción del servicio...</p>
+            </article>
+            
+            <article>
+                <h3>Servicio 2</h3>
+                <p>Descripción del servicio...</p>
+            </article>
+        </section>
+
+        <!-- SECTION: Para el blog con artículos -->
+        <section id="blog">
+            <h2>Últimos Artículos</h2>
+            
+            <!-- ARTICLE: Contenido autocontenido y redistribuible -->
+            <article>
+                <header>
+                    <h3>Título del Artículo</h3>
+                    <p>Por <strong>Autor</strong></p>
+                    <time datetime="2024-03-15">15 de Marzo, 2024</time>
+                </header>
+                
+                <!-- FIGURE para imágenes con descripción -->
+                <figure>
+                    <img src="imagen.jpg" alt="Descripción de la imagen">
+                    <figcaption>Pie de foto descriptivo</figcaption>
+                </figure>
+                
+                <p>Primer párrafo del artículo...</p>
+                <p>Más contenido del artículo...</p>
+                
+                <!-- ASIDE dentro del article para info relacionada -->
+                <aside>
+                    <h4>Dato Curioso</h4>
+                    <p>Información complementaria sobre el tema del artículo</p>
+                </aside>
+                
+               
+            </article>
+
+            <article>
+                <header>
+                    <h3>Otro Artículo</h3>
+                    <time datetime="2024-03-10">10 de Marzo, 2024</time>
+                </header>
+                <p>Contenido del segundo artículo...</p>
+            </article>
+        </section>
+
+        <!-- ASIDE: Contenido complementario a nivel de página -->
+        <aside>
+            <section>
+                <h3>Contenido Relacionado</h3>
+                <nav aria-label="Enlaces relacionados">
+                    <ul>
+                        <li><a href="#">Recurso útil 1</a></li>
+                        <li><a href="#">Recurso útil 2</a></li>
+                        <li><a href="#">Recurso útil 3</a></li>
+                    </ul>
+                </nav>
+            </section>
+            
+            <section>
+                <h3>Newsletter</h3>
+                <p>Suscríbete para recibir novedades</p>
+                <form>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    <button type="submit">Suscribir</button>
+                </form>
+            </section>
+        </aside>
+
+        <!-- SECTION: Testimonios -->
+        <section id="testimonios">
+            <h2>Lo que dicen nuestros clientes</h2>
+            
+            <blockquote>
+                <p>"Excelente servicio, totalmente recomendado"</p>
+            </blockquote>
+        </section>
+    </main>
+
+    <!-- FOOTER: Pie de página -->
+    <footer>
+        <section>
+            <h3>Enlaces Rápidos</h3>
+            <nav aria-label="Enlaces del footer">
+                <ul>
+                    <li><a href="#">Política de Privacidad</a></li>
+                    <li><a href="#">Términos y Condiciones</a></li>
+                    <li><a href="#">Mapa del Sitio</a></li>
+                </ul>
+            </nav>
+        </section>
+        
+        <section>
+            <h3>Contacto</h3>
+            <address>
+                <p>Email: <a href="mailto:info@ejemplo.com">info@ejemplo.com</a></p>
+                <p>Teléfono: <a href="tel:+571234567890">+57 123 456 7890</a></p>
+                <p>Dirección: Calle 123 #45-67, Medellín, Colombia</p>
+            </address>
+        </section>
+        
+        <section>
+            <h3>Síguenos en nuestras redes sociales </h3>
+            <nav aria-label="Redes sociales">
+                <a href="#" aria-label="Facebook">Facebook</a>
+                <a href="#" aria-label="Twitter">Twitter</a>
+                <a href="#" aria-label="Instagram">Instagram</a>
+                <a href="#" aria-label="LinkedIn">LinkedIn</a>
+            </nav>
+        </section>
+        
+        <p><small>&copy; 2025 wagyu burger. Todos los derechos reservados.</small></p>
+    </footer>
+</body>
+</html>
