@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
     <head>
-        <title>Title</title>
+        <title>blog</title>
         <!-- Required meta tags -->
         <meta charset="utf-8" />
         <meta
@@ -28,11 +28,11 @@
         <nav aria-label="Navegación principal">
             <ul>
                 <li><a href="/index.html">Inicio</a></li>
-                <li><a href="/assets/pages/about.html">Servicios</a></li>
-                <li><a href="/assets/pages/blog.html">Acerca de</a></li>
-                <li><a href="/assets/pages/contact.html">Blog</a></li>
-                <li><a href="/assets/pages/gallery.html">Contacto</a></li>
-                <li><a href="/assets/pages/servicios.html">Contacto</a></li>
+                <li><a href="/assets/pages/about.html">about</a></li>
+                <li><a href="/assets/pages/blog.html">blog</a></li>
+                <li><a href="/assets/pages/contact.html">contacto</a></li>
+                <li><a href="/assets/pages/gallery.html">gallery</a></li>
+                <li><a href="/assets/pages/servicios.html">servicios</a></li>
             </ul>
         </nav>
     </div>
@@ -42,17 +42,44 @@
         <main></main>
 
 
+<section class="blog">
+    <h2>Últimas Entradas</h2>
+    <br><br><br>
+    <div class="blog-cards">
+      
+      <div class="blog-card">
+        <h3>Cómo estilizar formularios</h3>
+        <span class="fecha">26 Oct 2025</span>
+        <p>Aprende técnicas básicas y avanzadas para dar un estilo moderno y funcional a tus formularios web.</p>
+        <a href="#">Leer más</a>
+      </div>
 
+      <div class="blog-card">
+        <h3>Crear un navbar responsivo</h3>
+        <span class="fecha">20 Oct 2025</span>
+        <p>Descubre cómo construir barras de navegación atractivas y adaptables a todos los dispositivos.</p>
+        <a href="#">Leer más</a>
+      </div>
+
+      <div class="blog-card">
+        <h3>Efectos hover en CSS</h3>
+        <span class="fecha">15 Oct 2025</span>
+        <p>Agrega animaciones y efectos visuales a tus botones, tarjetas e imágenes usando CSS puro.</p>
+        <a href="#">Leer más</a>
+      </div>
+
+    </div>
+</section>
 
 
         <footer>
-            <section>
+        <section>
             <h3>Enlaces Rápidos</h3>
-            <nav aria-label="Enlaces del footer">
+            <nav aria-label="Enlaces del footer" class="politicas">
                 <ul>
-                    <li><a href="#">Política de Privacidad</a></li>
-                    <li><a href="#">Términos y Condiciones</a></li>
-                    <li><a href="#">Mapa del Sitio</a></li>
+                    <li><a href="/assets/pages/pltca_priv.html">Política de Privacidad</a></li>
+                    <li><a href="/assets/pages/term_cond.html">Términos y Condiciones</a></li>
+                    <li><a href="/assets/pages/mapa.html">Mapa del Sitio</a></li>
                 </ul>
             </nav>
         </section>
@@ -68,7 +95,7 @@
         
         <section>
             <h3>Síguenos en nuestras redes sociales </h3>
-            <nav aria-label="Redes sociales">
+            <nav aria-label="Redes sociales" class="redes_sociales">
                 <a href="#" aria-label="Facebook">Facebook</a>
                 <a href="#" aria-label="Twitter">Twitter</a>
                 <a href="#" aria-label="Instagram">Instagram</a>
@@ -77,7 +104,7 @@
         </section>
         
         <p><small>&copy; 2025 wagyu burger. Todos los derechos reservados.</small></p>
-        </footer>
+    </footer>
         <!-- Bootstrap JavaScript Libraries -->
         <script
             src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
